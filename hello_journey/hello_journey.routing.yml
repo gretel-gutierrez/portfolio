@@ -1,0 +1,7 @@
+hello_journey.example:
+  path: '/hello-journey/example'
+  defaults:
+    _title: 'Example Controller'
+    _controller: '\Drupal\hello_journey\Controller\HelloJourneyController::content'
+  requirements:
+    _permission: 'access content'

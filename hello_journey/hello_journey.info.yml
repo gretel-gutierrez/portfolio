@@ -1,0 +1,5 @@
+name: 'Hello Journey'
+type: module
+description: 'This is a simple custom Drupal module that demonstrates how to create a route and controller.'
+package: Custom
+core_version_requirement: ^10
