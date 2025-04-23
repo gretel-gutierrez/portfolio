@@ -1,0 +1,5 @@
+services:
+  encapsulation_demo.price_calculator:
+    class: Drupal\encapsulation_demo\Service\PriceCalculator
+    arguments:
+      - '@config.factory'

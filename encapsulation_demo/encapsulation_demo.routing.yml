@@ -1,0 +1,14 @@
+encapsulation_demo.price:
+  path: 'encapsulation_demo/price'
+  defaults:
+    _controller: '\Drupal\encapsulation_demo\Controller\PriceController::showPrice'
+    _title: 'Encapsulation Example'
+  requirements:
+    _permission: 'access content'
+encapsulation_demo.settings:
+  path: 'admin/config/encapsulation_demo/settings'
+  defaults:
+    _form: '\Drupal\encapsulation_demo\Form\EncapsulationSettingsForm'
+    _title: 'Encapsulation Settings'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,6 @@
+name: 'Encapsulation Demo'
+type: module
+description: 'Demonstrates encapsulation in Drupal with a service.'
+package: Custom
+core_version_requirement: ^10 || ^11
+author: Gretel Gutierrez
